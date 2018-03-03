@@ -1,0 +1,29 @@
+
+CREER UN DOSSIER :
+mkdir monPremierRepo
+
+EN FAIRE UN REPO GIT :
+git init
+
+AJOUTER UN FICHIER ou plusieurs : 
+git add nomDeVotreFichier.extension
+git add .
+
+FAIRE UN COMMIT :
+git commit -m "Description du commit"
+
+VOIR L'HISTORIQUE DU COMMIT :
+git log
+
+RETROUVER UN COMMIT :
+git checkout SHADuCommit
+
+CLONER UN REPO GITHUB :
+git clone lienFourniParGitHub 
+
+METTRE A JOUR SON REPO GITHUB :
+git push origin master
+
+RECUPERER EN LOCAL LES MODIFS FAITES SUR GITHUB :
+git pull origin master
+
