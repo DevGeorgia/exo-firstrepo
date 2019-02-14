@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git Basics</title>
+
+    <style>
+        body {
+            margin:35px;
+            border: 2px solid #4f4fc4;
+            border-radius:15px;
+            padding:25px;
+        }
+
+        header {
+            height: 50px;
+            background-color: white;
+            color:#4f4fc4;
+        }
+
+        code {
+            color: white;
+            background-color: black;
+        }
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+
+<header>
+<h2>Git : Commandes de base</h2>
+</header>
+
+<p>CREER UN DOSSIER </p>
+<code>mkdir monPremierRepo</code>
+
+<p>EN FAIRE UN REPO GIT </p>
+<code>git init</code>
+
+<p>AJOUTER UN FICHIER </p>
+<code>git add nomDeVotreFichier.extension</code>
+
+<p>AJOUTER TOUS LES FICHIERS DU DOSSIER </p>
+<code>git add .</code>
+
+<p>FAIRE UN COMMIT </p>
+<code>git commit -m "Description du commit"</code>
+
+<p>VOIR L'HISTORIQUE DU COMMIT </p>
+<code>git log</code>
+
+<p>RETROUVER UN COMMIT </p>
+<code>git checkout SHADuCommit</code>
+
+<p>CLONER UN REPO GITHUB </p>
+<code>git clone lienFourniParGitHub </code>
+
+<p>RECUPERER EN LOCAL LES MODIFS FAITES SUR GITHUB (branche master) </p>
+<code>git pull origin master</code>
+</div>
+
+<p>ENVOYER LES FICHIERS MODIFIES SUR SON REPO GITHUB (branche master) </p>
+<code>git push origin master</code>
+
+</body>
+</html>
